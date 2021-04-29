@@ -1,0 +1,49 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "F:/_Study/计组课设/CPU_back/include/sim.v" "F:/_Study/计组课设/CPU_back/include/segpos.v" "F:/_Study/计组课设/CPU_back/include/pcdef.v" "F:/_Study/计组课设/CPU_back/include/opcode.v" "F:/_Study/计组课设/CPU_back/include/funct.v" "F:/_Study/计组课设/CPU_back/include/debug.v" "F:/_Study/计组课设/CPU_back/include/cp0def.v" --include "../../../../mycpu.ip_user_files/ipstatic/hdl" --include "../../../../../../../../../../CPU_back/include" --include "../../../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/axi_ram/sim/axi_ram.v" \
+"../../../../../../rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" \
+"../../../../../../rtl/xilinx_ip/axi_clock_converter/sim/axi_clock_converter.v" \
+"../../../../../../../../../../CPU_back/ip/InternalCrossbar/sim/InternalCrossbar.v" \
+"../../../../../../../../../../CPU_back/bus/AXIAdapter.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/BranchGen.v" \
+"../../../../../../../../../../CPU_back/core/storage/CP0.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/CP0Gen.v" \
+"../../../../../../../../../../CPU_back/core/storage/CP0ReadProxy.v" \
+"../../../../../../../../../../CPU_back/core/Core.v" \
+"../../../../../../../../../../CPU_back/core/stage/ex/EX.v" \
+"../../../../../../../../../../CPU_back/core/stage/ex/EXMEM.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/ExceptionGen.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/FunctGen.v" \
+"../../../../../../../../../../CPU_back/core/storage/HILO.v" \
+"../../../../../../../../../../CPU_back/core/storage/HILOReadProxy.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/ID.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/IDEX.v" \
+"../../../../../../../../../../CPU_back/core/stage/if/IFID.v" \
+"../../../../../../../../../../CPU_back/core/stage/mem/MEM.v" \
+"../../../../../../../../../../CPU_back/core/stage/mem/MEMWB.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/MemGen.v" \
+"../../../../../../../../../../CPU_back/core/stage/ex/MultDiv.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/OperandGen.v" \
+"../../../../../../../../../../CPU_back/core/stage/if/PC.v" \
+"../../../../../../../../../../CPU_back/core/pipeline/PipelineController.v" \
+"../../../../../../../../../../CPU_back/core/pipeline/PipelineDeliver.v" \
+"../../../../../../../../../../CPU_back/core/storage/RegFile.v" \
+"../../../../../../../../../../CPU_back/core/stage/id/RegGen.v" \
+"../../../../../../../../../../CPU_back/core/storage/RegReadProxy.v" \
+"../../../../../../../../../../CPU_back/mmu/StaticMMU.v" \
+"../../../../../../../../../../CPU_back/TinyMIPS.v" \
+"../../../../../../../../../../CPU_back/core/stage/wb/WB.v" \
+"../../../../../../rtl/axi_wrap/axi_wrap.v" \
+"../../../../../../rtl/ram_wrap/axi_wrap_ram.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../../../../CPU_back/mycpu_top.v" \
+"../../../../../../rtl/soc_axi_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

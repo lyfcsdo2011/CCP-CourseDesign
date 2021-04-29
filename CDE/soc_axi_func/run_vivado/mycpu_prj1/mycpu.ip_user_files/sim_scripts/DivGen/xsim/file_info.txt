@@ -1,0 +1,2 @@
+DivGen.vhd,vhdl,xil_defaultlib,../../../../../../../../../../CPU_back/ip/DivGen/sim/DivGen.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

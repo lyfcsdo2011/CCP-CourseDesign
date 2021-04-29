@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../../../../../CPU_back/ip/DivGen/sim/DivGen.vhd" \
+
+nosort

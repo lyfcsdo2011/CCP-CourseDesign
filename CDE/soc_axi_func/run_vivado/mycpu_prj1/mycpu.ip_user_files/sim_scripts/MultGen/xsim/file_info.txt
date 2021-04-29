@@ -1,0 +1,2 @@
+MultGen.vhd,vhdl,xil_defaultlib,../../../../../../../../../../CPU_back/ip/MultGen/sim/MultGen.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v
