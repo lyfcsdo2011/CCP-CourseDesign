@@ -2,7 +2,7 @@
 Computer Compose Principle Course Design.
 
 We made a simple 5-stage pipeline CPU based on CDE project provided by Loongson.
-We realized extend 27 instruction  
+We realized extend 27 instruction, using verilog.
 
 # About platform
 This is a vivado project, you need to create "xc7a200tfbg676-2" vivado project and import the CDE file if you want to run it on the test box.
